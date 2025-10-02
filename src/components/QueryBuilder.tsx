@@ -25,6 +25,7 @@ const brands = [
   { name: "Bareeze/Home Expression", sbsNo: 2 },
   { name: "Bareeze Men", sbsNo: 3 },
   { name: "Chinyere", sbsNo: 5 },
+  { name: "Fabric Store", sbsNo: 82 },
   { name: "Minnie Minor", sbsNo: 7 },
   { name: "Rang Ja", sbsNo: 8 },
   { name: "The Entertainer", sbsNo: 12 },
