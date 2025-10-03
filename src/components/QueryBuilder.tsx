@@ -20,6 +20,7 @@ import { CalendarIcon, Copy, Check } from "lucide-react";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
+import logo from "@/assets/techtoolkit-logo.png";
 
 const brands = [
   { name: "Bareeze/Home Expression", sbsNo: 2 },
@@ -75,13 +76,16 @@ select count(*), 'Voucher' as cat from voucher where store_no=${storeCode} and s
   return (
     <div className="min-h-screen bg-background p-6 md:p-12">
       <div className="mx-auto max-w-5xl space-y-8">
-        <div className="space-y-2">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground">
-            Database Query Builder
-          </h1>
-          <p className="text-lg text-muted-foreground">
-            Generate SQL queries for TechTool Kit database operations
-          </p>
+        <div className="space-y-4">
+          <img src={logo} alt="TechTool Kit Logo" className="h-12 md:h-16" />
+          <div className="space-y-2">
+            <h1 className="text-4xl font-bold tracking-tight text-foreground">
+              Database Query Builder
+            </h1>
+            <p className="text-lg text-muted-foreground">
+              Generate SQL queries for TechTool Kit database operations
+            </p>
+          </div>
         </div>
 
         <Card className="p-6 md:p-8 space-y-6">
