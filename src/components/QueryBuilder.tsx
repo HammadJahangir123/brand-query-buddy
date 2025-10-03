@@ -20,7 +20,7 @@ import { CalendarIcon, Copy, Check } from "lucide-react";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
-import logo from "@/assets/techtoolkit-logo.png";
+import logo from "@/assets/database-logo.png";
 
 const brands = [
   { name: "Bareeze/Home Expression", sbsNo: 2 },
